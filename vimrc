@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+colorscheme molokai
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim and sourced by
 " the call to :runtime you can find below.  If you wish to change any of those
 " settings, you should do it in this file (/etc/vim/vimrc), since debian.vim
@@ -65,8 +66,7 @@ endif
 "My stuff
 
 " turn hybrid line numbers on
-:set number relativenumber
-:set nu rnu
+set number
 
 set cursorline 
 
