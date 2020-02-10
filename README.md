@@ -6,7 +6,7 @@ The installed modules in it are created as submodules from another repositories 
 
 ### Instalation:
 
-Just clone this repository to your "/home/{username}/" folder and you are good to go. 
+Just clone this repository to your "/home/{username}/" folder, get the submodules of the repository and you are good to go. 
 
 For newbies there is a step-by-step instalation guide below:
 
