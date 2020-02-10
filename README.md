@@ -6,17 +6,28 @@ The installed modules in it are created as submodules from another repositories 
 
 ### Instalation:
 
-Just clone this repository to your "/home/{username}/.vim/" folder and you are good to go. 
+Just clone this repository to your "/home/{username}/" folder and you are good to go. 
 
 For newbies there is a step-by-step instalation guide below:
 
-1. *(optional)* If you don't have the .vim folder, create it:
+1. (*Optional*) Install **vim** and **git** if you don't have them:
+- Debian based OS: ``` sudo apt install vim git ```
+- Arch based OS: ``` pacman -S vim git```
+- Fedora OS: ``` sudo dnf install vim git```
+
+2. Go to your home folder:
 
 ```
-cd && mkdir .vim && cd .vim/
+cd
 ```
-2. Clone the repository:
+3. Clone the repository:
 ``` 
-git clone https://github.com/skuzol/vim.git
+git clone https://github.com/skuzol/.vim.git
 ```
-3. Enjoy!
+4. Download all submodules of the repository:
+```
+cd ~/.vim
+git submodule init
+git submodule update
+```
+5.Enjoy!
