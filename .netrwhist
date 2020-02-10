@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/mnt/d/Documents/School/PROG2/zadanie 8'
+let g:netrw_dirhist_2='/home/skultety/.vim'
+let g:netrw_dirhist_3='/home/skultety'
+let g:netrw_dirhist_4='/home'
+let g:netrw_dirhist_5='/'
+let g:netrw_dirhist_6='/home'
+let g:netrw_dirhist_7='/'
+let g:netrw_dirhist_8='/lib'
+let g:netrw_dirhist_9='/lib/firmware'
