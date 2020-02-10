@@ -1,4 +1,4 @@
-## Vim setup
+# Vim setup
 
 This repository was created to easily download my setup for the **Vim text-editor** whenever I reinstall/change my device.
 
