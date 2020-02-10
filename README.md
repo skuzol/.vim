@@ -30,4 +30,4 @@ cd ~/.vim
 git submodule init
 git submodule update
 ```
-5.Enjoy!
+5. Enjoy!
